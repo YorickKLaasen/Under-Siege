@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593cbe7aa8feed34894acd267dec39ab, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  type: 1
+  enemyTypes: 1
+  buildingTypes: 0
+  enemyStats:
+    health: 0
+    damage: 0
+    speed: 0
+  buildingStats:
+    health: 0
+    level: 0
+  combatBuildingStats:
+    damage: 0
+    attackSpeed: 0
+  passiveBuildingStats:
+    resourceTypes: 0
+    generationSpeed: 0
+  wallStats:
+    dmgReduction: 0
